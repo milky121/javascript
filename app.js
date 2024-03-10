@@ -166,3 +166,20 @@ else{
     console.log("unsafe")
 }
 
+
+//  NUMBER IS DIVISIBLE WITH 10 OR NOT
+
+let number = 20;
+if(num%10){
+    console.log("It is divisible");
+}
+
+else{
+    console.log("It is not divisible");
+}
+
+
+let username = prompt("enter your username: ");
+let AGE2 = prompt("enter your AGE2 :");
+console.warn(username,"is", AGE2,"years old" );
+
