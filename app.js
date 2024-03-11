@@ -183,3 +183,63 @@ let username = prompt("enter your username: ");
 let AGE2 = prompt("enter your AGE2 :");
 console.warn(username,"is", AGE2,"years old" );
 
+
+let quater = 1;
+switch(quater) {
+    case 1: 
+    console.log("January", "February", "March");
+    break;
+    case 2:
+        console.log("April", "May", "June");
+         break;
+    case 3:
+        console.log("July", "August", "September");
+         break;     
+    case 4 :
+        console.log("October", "November", "December");
+         break; 
+    default :
+        console.log("out of quarter");
+}
+
+
+let str1 ="ankitaaa"
+if(str[0]==="A" || str[0]==="a" && str1.length>5){
+    console.log("it is a golden string");
+}
+
+else{
+    console.log("please enter another statement");
+}
+
+
+let x = 100;
+let y = 67;
+let z = 89;
+if(x>y){
+    if(x>z){
+        console.log("x is a largest number ");
+    }
+    else{
+        console.log("z is largest");
+    }
+}
+
+else{
+    if(y>z){
+        console.log("y is largest number");
+    }
+    else{
+        console.log("z is largest");
+    }
+    
+}
+
+let v = 32;
+let w = 48752;
+if((v%10) == (w%10)){
+    console.log("It has same last digit which is",v%10);
+}
+else{
+    console.log("please enter another number");
+}
