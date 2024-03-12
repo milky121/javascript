@@ -179,9 +179,9 @@ else{
 }
 
 
-let username = prompt("enter your username: ");
-let AGE2 = prompt("enter your AGE2 :");
-console.warn(username,"is", AGE2,"years old" );
+// let username = prompt("enter your username: ");
+// let AGE2 = prompt("enter your AGE2 :");
+// console.warn(username,"is", AGE2,"years old" );
 
 
 let quater = 1;
@@ -243,3 +243,173 @@ if((v%10) == (w%10)){
 else{
     console.log("please enter another number");
 }
+
+
+// STRING METHODS
+
+ 
+//  let password = prompt("set your password");
+//  let newpass = password.trim();
+//  console.log(newpass);
+
+
+ let name = "apnacollege";
+ console.log(name.toUpperCase());
+
+
+
+ let myname = "vishnu";
+ console.log(myname.indexOf("h")); 
+
+// METHOD CCHAINING
+ let mess = "  asimplemessage   ";
+ let newMsg = mess.trim().toUpperCase();
+
+
+//  SLICE METHOD
+
+let str4= "ILoveCoding";
+console.log(str4.slice(1,4));
+
+// REPLACE
+
+ let str5 = "MY name is milky";
+ console.log(str5.replace("name","Self"));
+
+
+//  REPEAT
+
+let str6 = "MANGO";
+console.log(str6.repeat(5));
+
+// PRACTICE QUESTIONS
+
+let message = "   help  ";
+ let newOne= message.trim().toUpperCase();
+ console.log(newOne);
+
+
+
+//  ARRAY
+
+let students = ["milky","mummy","papa" ];
+let info = ["milky",22,"rani"];
+let empty  = [];
+
+// ARRAYS ARE MUTABLE
+
+let fruits = ["mango","litchi","apple"];
+fruits[0] = "banana";
+console.log(fruits);
+
+//  ARRAY METHODS
+
+let cars = ["toyota", "bmw"];
+cars.push("jaguar","fortunar");
+cars.pop();
+cars.unshift("ferrari"); 
+cars.shift();
+
+console.log(cars);
+
+// PRACTICE QUESTION
+
+let months = ["january","july","march","august"];
+months.shift();
+console.log("january removed");
+months.shift();
+months.unshift("june");
+months.unshift("july");
+
+// methods
+
+
+let primary = ["red","yellow","blue"];
+let method = primary.indexOf("yellow")
+let includes = primary.includes("blue");
+console.log(method);
+console.log(includes);
+
+let primary1 = ["red","yellow","blue"];
+let secondary = ["orange","green","violet"];
+let mix = primary1.concat(secondary);
+console.log(mix);
+let mix1= primary1.reverse();
+console.log(mix1);
+
+// SLICE ARRAY
+
+let colors = ["red","blue","yellow","green"];
+let one = colors.slice(2);
+console.log(one);
+
+// SPLICE ARRAY
+
+let colours = ["red","yellow","blue"];
+colours1 = colours.splice(0,1);
+console.log(colours1);
+console.log(colours);
+
+// SORT
+
+let days = ["monday","sunday","wednesday","tuesday"];
+let days1 = days.sort();
+console.log(days);
+
+// nested array
+let digit = [ [2,4], [3,6] , [4,8] ];
+console.log(digit);
+
+// PRACTICE 
+
+let tic = [ ["X",null,"O"] ,[null,"X",null] , ["O",null,"X"] ];
+console.log(tic);
+
+// ELEMENTS EXIST IN AN ARRAY OR NOT
+
+let arr1 = ["milky",'b',23,43,56,32];
+let item = 99;
+if(arr1.indexOf(item) != -1){
+    console.log("elements exists in an array");
+
+}
+
+else{
+    console.log("elements does not exists in an array");
+ 
+}
+
+// LEADING AND TRAILING SPACES OF A STRING
+
+// let string1 = prompt("enter a string");
+// console.log(`string with spaces = ${string1}`);
+// console.log(`string without spaces = ${string1.trim()}`);
+
+// CHARACTER IS IN LOWERCASE
+
+let string2 = "MiLkyColLGE";
+let idx = 0;
+if(string2[idx]== string2[idx].toLowerCase()){
+    console.log("character is lowercase");
+}
+
+else{
+    console.log("character is not in lowercase");
+
+}
+
+// WHETHER THE STRING IS BLANK OR NOT
+
+let string3 = prompt("hey there!!!!");
+if(string3==0){
+    console.log("blank string");
+}
+
+else{
+    console.log("string entered");
+}
+
+
+
+
+
