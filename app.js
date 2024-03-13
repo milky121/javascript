@@ -400,16 +400,172 @@ else{
 
 // WHETHER THE STRING IS BLANK OR NOT
 
-let string3 = prompt("hey there!!!!");
-if(string3==0){
-    console.log("blank string");
+// let string3 = prompt("hey there!!!!");
+// if(string3==0){
+//     console.log("blank string");
+// }
+
+// else{
+//     console.log("string entered");
+// }
+
+
+
+// LOOPS
+
+// FOR LOOP
+
+ 
+ for(let i = 1; i<=5;i++){
+    console.log(i);
+ }
+
+//  odd NUMBERS
+
+for(let j=1;j>=15;j=j+2){
+    console.log(j);
 }
 
-else{
-    console.log("string entered");
+// EVEN NUMBER
+
+for(let m=2;m>=10;m=m+2){
+console.log(m);
+}
+
+// PRINT MULTIPLICATION OF 5
+
+for(let k=5;k<=50;k=k+5){
+    console.log(k);
+}
+
+// let n = prompt("enter the number");
+// n = parseInt(n);
+// for(let h=n;h<=n*10;h=k=h+n){
+//     console.log(h);
+// }
+
+//  WHILE LOOP
+
+let i=1;
+while(i<=5){
+    console.log(i);
+    i++;
+}
+
+let m =0;
+while(m<=20){
+    console.log(m);
+    m++
+}
+
+// BREAK STATEMENT
+
+let f = 1;
+while(f>=5){
+    if(f==3) {
+        break;
+    }
+    console.log(f);
+    f++
+}
+
+
+// const favMovie = "avatar";
+// let guess = prompt("guess my favourite movie");
+// while( guess!=favMovie){
+//     if(guess=="quit"){
+//         console.log("yoy quit");
+//         break;
+//     }
+//     guess= prompt("wrong guesss please try again later");
+
+// }
+
+// if(guess ==favMovie){
+//     console.log("congrats");
+// }
+
+//  LOOPS WITH ARRAY
+
+let fruitss = ["mango","apple","banana","litchi","orange"];
+for(let i=0;i<fruits.length;i++){
+console.log(i,fruits[i]);
 }
 
 
 
+//  FOR OF LOOPS 
+
+let fruitsss = ["mango" ,"apple","banana","litchi","orange"];
+for(fruit of fruitsss){
+    console.log(fruit);
+}
+
+for (char of "apnacollege"){
+    console.log(char);
+}
+
+//  NESTED FOR OF LOOP
+
+let heroes= [["ironman","spiderman","thor"],["superman","wonder","flash"]];
+for(list of heroes){
+    for(hero of list){
+        console.log(hero);
+    }
+}
 
 
+// js program to delete all occurrences of '2'
+let arr5 = [1,2,3,4,5,6,2,3];
+let num5 = 2;
+for(let i=0;i<arr5.length;i++){
+    if(arr5[i] == num5){
+        arr5.splice(i,1);
+    }
+}
+console.log(arr5);
+
+
+// find number of digits in a number
+let number1 = 287152;
+let count = 0;
+let copy = number1;
+while(copy>0){
+    count++;
+    copy =  Math.floor(copy/10);
+}
+console.log(count);
+
+
+// sum of digits in a number
+let number2 = 287152;
+let sum = 0;
+let copy1 = number2;
+while(copy1>0){
+    digit = copy1%10;
+    sum+= digit;
+    copy1 =  Math.floor(copy1/10);
+
+}
+
+console.log(sum);
+
+
+// factorial of 5
+let n = 5;
+let factorial = 1;
+for(i=1; i<=n;i++){
+    factorial *= i;
+}
+console.log(`factorial of ${n} is ${factorial}`);
+
+// find largest number in an given array
+let arrays = [2,5,10,4,2,7,1,9];
+let largest = 0;
+for(let i =0;i<arrays.length;i++){
+    if(largest < arrays[i]){
+        largest = arrays[i];
+    }
+}
+
+console.log(largest);
