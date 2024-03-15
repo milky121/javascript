@@ -665,3 +665,14 @@ console.log(classInfo1[1]);
 console.log(classInfo1[2]);
 console.log(classInfo1[0]);
 console.log(classInfo1[0].name);
+
+//  RANDOM INTEGERS
+
+let ran =  Math.random();
+console.log(ran);
+  let ran1 = ran*10;
+console.log(ran1);
+let ran2 = Math.floor(ran1);
+console.log(ran2);
+let ran3 = ran2 + 1;
+console.log(ran3);
