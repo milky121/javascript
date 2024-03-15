@@ -616,3 +616,52 @@ const studenttt = {
 };
 
 console.log(studenttt.city = "mumbai");
+
+
+// OBJECTS OF OBJECTS  
+
+const classInfo = {
+    Aman : {
+        grade: "A++",
+        city: "Delhi"
+    },
+    Shradha : {
+        grade: "A",
+        city: "Pune"
+    },
+    Karan : {
+        grade: "O",
+        city: "Mumbai"
+    },
+};
+
+console.log(classInfo);
+console.log(classInfo.Aman);
+console.log(classInfo.Aman.city);
+
+//  ARRAY OF OBJECTS 
+
+const classInfo1 = [
+     {
+        name: "aman",
+        grade: "A++",
+        city: "Delhi"
+    },
+    {   
+        name: "milky",
+        grade: "A",
+        city: "Pune"
+    },
+     {
+        name: "ankit",
+        grade: "O",
+        city: "Mumbai"
+    },
+];
+
+
+console.log(classInfo1[0]);
+console.log(classInfo1[1]);
+console.log(classInfo1[2]);
+console.log(classInfo1[0]);
+console.log(classInfo1[0].name);
