@@ -595,4 +595,12 @@ const post = {
     tags: ["@delta","@apnacollege"]
 };
 
+//  GET VALUES
 
+ let student1 = {
+    name: "rani",
+    marks: 88.2
+ };
+
+ console.log(student1["name"]);
+ console.log(student1.name);
