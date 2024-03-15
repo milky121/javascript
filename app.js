@@ -569,3 +569,12 @@ for(let i =0;i<arrays.length;i++){
 }
 
 console.log(largest);
+
+// OBJECT literals
+
+const student = {
+    name: "milky",
+    age: 21,
+    marks: 94.4,
+    city: "amritsar"
+};
