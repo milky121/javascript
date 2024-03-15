@@ -604,3 +604,15 @@ const post = {
 
  console.log(student1["name"]);
  console.log(student1.name);
+
+
+//  ADD/UPDATE VALUES
+
+const studenttt = {
+    name: "milky rani",
+    age: 21,
+    marks:99.2,
+    city: "Amritsar"
+};
+
+console.log(studenttt.city = "mumbai");
