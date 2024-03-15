@@ -698,9 +698,16 @@ while(true){
         console.log("You are right! congrats!!");
         break;
     }
-    else{
-        guess = prompt("Your guess was wrong please try again");
+
+    else if (guess<random1){
+        guess = prompt("Your guess was too small!! Please try again");
     }
+    else   {
+        guess = prompt("Your guess was too large!! Please try again");
+    }
+    // else{
+    //     guess = prompt("Your guess was wrong please try again");
+    // }
 }
 
 
