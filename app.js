@@ -578,3 +578,21 @@ const student = {
     marks: 94.4,
     city: "amritsar"
 };
+
+const item2 = {
+    price: 100.99,
+    discunt: 50,
+    colors: ["red","pink"]
+};
+
+// Thread/twitter post object
+
+const post = {
+    username:"@milkyrani",
+    ontent: "this is my first post",
+    likes: 150,
+    reposts: 5,
+    tags: ["@delta","@apnacollege"]
+};
+
+
