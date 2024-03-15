@@ -676,3 +676,32 @@ let ran2 = Math.floor(ran1);
 console.log(ran2);
 let ran3 = ran2 + 1;
 console.log(ran3);
+
+
+//  RANDOM VALUE BETWEEN 1 TO 100
+
+let random = Math.floor(Math.random()*100)+1;
+console.log(random);
+
+const max =  prompt(" enter max number");
+console.log(max);
+const random1 = Math.floor(Math.random()*max)+1;
+let guess = prompt("guess the number");
+
+while(true){
+    if(guess == "quit"){
+        console.log("user quit");
+        break;
+    }
+
+    if(guess == random1){
+        console.log("You are right! congrats!!");
+        break;
+    }
+    else{
+        guess = prompt("Your guess was wrong please try again");
+    }
+}
+
+
+
