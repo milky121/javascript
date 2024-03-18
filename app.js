@@ -589,7 +589,7 @@ const item2 = {
 
 const post = {
     username:"@milkyrani",
-    ontent: "this is my first post",
+    content: "this is my first post",
     likes: 150,
     reposts: 5,
     tags: ["@delta","@apnacollege"]
@@ -700,15 +700,17 @@ while(true){
     }
 
     else if (guess<random1){
-        guess = prompt("Your guess was too small!! Please try again");
+        guess = prompt("hint: Your guess was too small!! Please try again");
     }
     else   {
-        guess = prompt("Your guess was too large!! Please try again");
+        guess = prompt("hint: Your guess was too large!! Please try again");
     }
     // else{
     //     guess = prompt("Your guess was wrong please try again");
     // }
 }
+
+
 
 
 
